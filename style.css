@@ -1,0 +1,738 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: rgba(255, 218, 185, 0.481);
+}
+
+nav{
+    width: 100%;
+    top: 0;
+    left: 0;
+    max-width: 1320px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.063);
+    backdrop-filter: blur (10px);
+    z-index: 100;
+  
+}
+div.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    color: white;
+    
+}
+div.header-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+div.header-left span img{
+    width: 100px;
+    border-radius: 100%;
+    border: 3px solid black;
+}
+div.header-left span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+div.header-left span p{
+    color: rgb(53, 53, 222);
+    font-size: 21px;
+    font-weight: 600;
+}
+
+div.header-right ul li {
+    list-style-type: none;
+}
+section.top-image{
+    
+}
+div.image-banner{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+div.image-border img{
+    width: 100%;
+    height: 60vh;
+    border: 5px solid orangered;
+}
+section.mid-section{
+    width: 100%;
+}
+div.home-flex{
+    max-width: 1320px;
+    margin: 0 auto;
+    
+}
+div.home-title{
+    margin-top: 30px;
+}
+div.home-title h1{
+    color: orangered;
+    font-size: 45px;
+    font-weight: 700;
+}
+div.home-title .intro{
+    color: orangered;
+    font-size: 45px;
+    font-weight: 700;
+}
+div.home-title-txt p{
+    color: black;
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+div.home-youtube{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+div.home-video{
+    border: 5px solid orangered;
+    transition: 0.3s ease-in-out;
+}
+div.home-video:hover{
+    transform: scale(1.1);
+}
+div.youtube-flex{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+div.youtube-title h2{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: orangered;
+    font-size: 40px;
+}
+div.youtube-bg{
+    max-width: 1320px;
+    margin: 0 auto;
+ 
+}
+div.youtube-bg img{
+    width: 1100px;
+    border: 5px solid orangered;
+    margin-bottom: 30px;
+    transition: 0.3s ease-in-out;
+}
+div.youtube-bg img:hover{
+    transform: scale(1.1);
+}
+div.review-flex{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+div.review-title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: orangered;
+    font-size: 33px;
+}
+div.review-border{
+    display: flex;
+    gap: 50px;
+}
+div.review-border .review-img img{
+    width: 500px;
+    border: 5px solid orangered;
+    transition: 0.3s ease-in-out;
+}
+div.review-border .review-img img:hover{
+    transform: scale(1.1);
+}
+div.review-border .review-img2 img{
+    width: 500px;
+    border: 5px solid orangered;
+    height: 86.5%;
+    transition: 0.3s ease-in-out;
+ 
+}
+div.review-border .review-img2 img:hover{
+    transform: scale(1.1);
+}
+footer{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+div.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+    margin-top: 30px;
+
+}
+div.footer-left{
+    color: rgb(53, 53, 222);
+}
+div.footer-right{
+    color: orangered;
+}
+div.about-flex{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+div.about-border{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+div.free-sisig{
+    width: 50%;
+    border: 5px solid grey;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+div.free-sisig p{
+    margin-bottom: 15px;
+    font-size: 23px;
+    color: white;
+    padding: 20px;
+}
+div.free-sisig img{
+    width: 100%;
+}
+div.cajun-feast{
+    width: 50%;
+    border: 5px solid grey;
+    background-color: rgba(0, 0, 0, 0.925);
+}
+div.cajun-feast p{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: white;
+    padding: 20px;
+}
+div.cajun-feast img{
+    width: 100%;
+}
+div.table{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+div.table h3{
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: orangered;
+}
+table.main-table th{
+    font-size: 22px;
+    padding: 20px;
+}
+tr .table-txt1{
+    font-size: 22px;
+    padding: 10px;
+
+}
+section.Menu{
+    max-width: 1320px;
+    margin:  0 auto;
+}
+div.menu-title .menu-txt{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: orangered;
+}
+div.menu-flex{
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+div.menu-image img{
+    width: 300px;
+}
+div.menu-image{
+    border: 5px solid grey;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+div.stock-title .stock-txt{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: orangered;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+div.hala-flex{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+div.stock1 img{
+    width: 400px;
+    border: 5px solid grey;
+}
+section.contact{
+    max-width: 1320px;
+    margin:  0 auto;
+}
+div.contact-main{
+    width: 35%;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 40px;
+    background-color: rgba(1, 1, 1, 0.551);
+}
+div.contact-intro .intro-txt{
+    color: white;
+    font-size: 28px;
+}
+div.contact-intro{
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+div.contact-intro p{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ 
+}
+div.contact-icon span{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-bottom: 20px;   
+}
+div.contact-icon span i{
+    color: white;
+}
+div.contact-icon span p{
+    color: white;
+}
+div.contact-flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+div.map-title p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: orangered;
+    font-size: 40px;
+    font-weight: 600;
+}
+div.map-frame iframe{
+    width: 700px;
+
+}
+div.map-frame{
+    border: 3px solid black;
+}
+div.header-right{
+    display: none;
+}
+div.seafood-mobile-main{
+    font-size: 30px;
+    color: orangered;
+    margin-right: 20px;
+}
+
+div.header-right ul li a{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 0 300px;
+    padding-bottom: 50px;
+}
+div.header-right.active{
+    display: block;
+    background-color: black;
+    padding: 85px 100px;
+    margin: -6px -280px;
+    position: absolute;
+    border: 5px solid orangered;
+    color: white;
+    
+}
+@media only screen and (max-width: 1024px){
+    div.youtube-flex{
+       display: block;
+       justify-content: center;
+    }
+
+    div.home-video{
+      border: none;
+    }
+
+    table.main-table th{
+        font-size: 13px;
+    }
+    section.youtube{
+        max-width: 950px;
+        margin:  0 auto;
+    }
+    section.reviews{
+        max-width: 950px;
+        margin: 0 auto;
+    }
+    div.review-border .review-img img{
+        width: 391px;
+    }
+    div.review-border .review-img2 img{
+        width: 391px;
+    }
+    footer{
+        max-width: 950px;
+        margin:  0 auto;
+    }
+    div.hala-main{
+        max-width: 950px;
+        margin: 0 auto;
+       }
+    div.hala-flex{
+        display: block;
+    }
+    div.stock1 img{
+        width: 100%;
+        height: 65vh;
+    }
+    div.header-main{
+        max-width: 950px;
+        margin:  0 auto;
+    }
+    div.contact-flex{
+        display: block;
+    }
+    div.map-frame iframe{
+        width: 100%;
+    }
+    div.contact-main{
+        width: 100%;
+    }
+    section.contact{
+        max-width: 950px;
+        margin:  0 auto;
+    }
+    
+
+}
+@media only screen and (max-width: 768px){
+    div.youtube-bg img{
+        width: 600px;
+    }
+    div.image-border img{
+        width: 95%;
+        margin-top: 30px;
+    }
+    section.mid-section{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    section.top-image{
+        max-width: 700px;
+        margin:  0 auto;
+    }
+    footer{
+        max-width: 700px;
+        margin:  0 auto;
+    }
+    div.header-main{
+        max-width: 700px;
+        margin:  0 auto;
+    }
+    section.youtube{
+        max-width: 700px;
+        margin:  0 auto;
+    }
+    table.main-table th{
+        font-size: 9px;
+    }
+    tr .table-txt1{
+        font-size: 9px;
+    }
+    div.review-border .review-img2 img{
+        width: 350px;
+    }
+    div.review-border .review-img img{
+        width: 350px;
+    }
+    div.header-left span p{
+        font-size: 17px;
+    }
+    div.header-right ul{
+        font-size: 18px;
+    }
+    div.youtube-title h2{
+        font-size: 33px;
+    }
+    section.reviews{
+        max-width: 700px;
+        margin:  0 auto;
+    }
+    div.header-right{
+        display: none;
+    }
+    div.about-border{
+        display: block;
+    }
+    div.free-sisig{
+        width: 100%;
+    }
+    div.cajun-feast{
+        width: 100%;;
+    }
+    div.review-border{
+        display: block;
+    }
+    section.Menu{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    section.contact{
+        max-width: 700px;
+        margin:  0 auto;
+    }
+  
+
+
+} 
+@media only screen and (max-width: 641px){
+    div.menu-image img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px){
+    div.review-border{
+        display: block;
+    }
+    table.main-table th{
+        font-size: 8px;
+    }
+    section.youtube{
+        max-width: 575px;
+        margin:  0 auto;
+    }
+    div.menu-image img{
+        width: 100%;
+    }
+    section.Menu{
+        max-width: 575px;
+        margin:  0 auto;
+    }
+}
+@media only screen and (max-width: 500px){
+    div.free-sisig{
+        width: 115%;
+    }
+    div.cajun-feast{
+        width: 115%;
+    }
+    section.youtube{
+        max-width: 470px;
+        margin: 0 auto;
+    }
+    div.header-main{
+        max-width: 470px;
+        margin: 0 auto;
+    }
+    div.youtube-bg img{
+        width: 470px;
+    }
+}
+@media only screen and (max-width: 470px){
+        div.menu-flex{
+            display: flex;
+            justify-content: center;
+        }
+        div.youtube-bg img{
+            width: 445px;
+        }
+}
+@media only screen and (max-width: 452px){
+    table.main-table th{
+        font-size: 7px;
+    }
+}
+
+@media only screen and (max-width: 428px){
+    div.youtube-bg img{
+        width: 395px;
+    }
+    div.header-left span p{
+        font-size: 12px;
+    }
+    div.header-left span img{
+        width: 63px;
+    }
+    section.top-image{
+        max-width: 400px;
+        margin:  0 auto;
+    }
+    section.mid-section{
+        max-width: 400px;
+        margin:  0 auto;
+    }
+    footer{
+        max-width: 400px;
+        margin:  0 auto;
+    }
+    div.header-right{
+    display: none;
+    }
+    div.header-main{
+        max-width: 400px;
+        margin:  0 auto;
+    }
+    div.review-border{
+        display: block;
+    }
+    div.home-video iframe{
+        width: 400px;
+    }
+    table.main-table th{
+        padding: 0;
+    }
+    tr .table-txt1{
+        padding: 2px;
+    }
+    div.table h3{
+        font-size: 36px;
+    }
+    div.review-title .review-txt{
+        font-size: 37px;
+    }
+    section.youtube{
+        max-width: 400px;
+        margin:  0 auto;
+    }
+    div.about-border{
+        display: block;
+    }
+    div.free-sisig{
+        width: 100%;
+    }
+    div.cajun-feast{
+        width: 100%;
+    }
+    section.Menu{
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    div.menu-flex{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 375px){
+    section.top-image{
+        max-width: 350px;
+        margin:  0 auto;
+    }
+    section.mid-section{
+        max-width: 350px;
+        margin:  0 auto;
+    }
+    footer{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    div.footer-flex{
+        font-size: 13px;
+    }
+    section.youtube{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    div.header-main{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    div.free-sisig{
+        width: 110%;
+    }
+    div.cajun-feast{
+        width: 110%;
+    }
+    section.Menu{
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    div.stock-title .stock-txt{
+        font-size: 26px;
+    }
+    div.youtube-bg img{
+        width: 331px;
+    }
+}
+@media only screen and (max-width: 320px){
+    div.youtube-bg img{
+        width: 294px;
+    }
+    div.home-title .intro{
+        font-size: 25px;
+    }
+    div.home-title h1{
+        font-size: 24px;
+    }
+    div.home-title-txt p{
+        font-size: 15px;
+    }
+    section.top-image{
+        max-width: 295px;
+        margin:  0 auto;
+    }
+    section.mid-section{
+        max-width: 295px;
+        margin:  0 auto;
+    }
+    footer{
+        max-width: 295px;
+        margin:  0 auto;
+    }
+    div.header-main{
+        max-width: 295px;
+        margin:  0 auto;
+    }
+    div.youtube-title h2{
+        font-size: 23px;
+    }
+    div.about-flex{
+        max-width: 295px;
+        margin: 0 auto;
+    }
+    section.reviews{
+        max-width: 295px;
+        margin:  0 auto;
+    }
+    div.header-left span p{
+        font-size: 9px;
+    }
+    div.menu-title .menu-txt{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+
+
+
